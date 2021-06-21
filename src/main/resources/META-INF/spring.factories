@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.dc.menu.config.DCMenuEnableLoadBeanAutoConfiguration,\
+  com.github.dc.menu.config.DCMenuMapperScannerAutoConfiguration
