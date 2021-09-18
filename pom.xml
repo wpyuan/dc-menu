@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.github.wpyuan</groupId>
     <artifactId>dc-menu</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>dc-menu</name>
     <description>dc frame menu project for Spring Boot</description>
     <properties>

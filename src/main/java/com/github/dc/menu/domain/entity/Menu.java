@@ -8,6 +8,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 
 /**
  *  菜单
@@ -20,16 +22,16 @@ import lombok.NoArgsConstructor;
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class Menu {
+public class Menu implements Serializable {
 
     /**
-      * 主键
-      */
+     * 主键
+     */
     @Id(fillMethod = CustomFillIdMethod.UUID)
     private String id;
     /**
-      * 菜单标题
-      */
+     * 菜单标题
+     */
     private String title;
     /**
       * 图标
